@@ -28,7 +28,7 @@ const api = {
     })
   },
 
-  getBSDs (TOKEN) {
+  getBSDs () {
     return new Promise((resolve, reject) => {
       fetch(BASE_URL + '/v4/bsds', {
         headers: getHeaders()

@@ -1,5 +1,5 @@
 <template>
-  <header class="py-6">
+  <header class="py-6 text-3xl">
     <h1>
       <router-link to="/">BLD</router-link>
     </h1>
@@ -14,5 +14,4 @@
 </template>
 
 <script setup>
-
 </script>
